@@ -1,13 +1,10 @@
-<!DOCTYPE html>
-
-<html lang="es" style=""><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<!DOCTYPE html><html lang="es" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
 <title>Consultor Kenneth | Estrategia Comercial y Cumplimiento para PYMES</title>
-<meta content="Consultor Kenneth — Monitoreamos el cumplimiento formal de su PYME mes a mes. PCE, PFV y BPE para empresarios costarricenses." name="description"/>
+<meta content="Consultor Kenneth — Monitoreamos el cumplimiento formal de su PYME mes a mes. PCE, PFV y BPE para empresarios costarricenses." name="description">
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
 <style>
     :root {
       --primary: #00AEEF;
@@ -34,7 +31,7 @@
       top: 0;
       width: 100%;
       z-index: 1000;
-      background: rgba(0, 0, 0, 0.92);
+      background: rgba(9, 10, 13, 0.92);
       backdrop-filter: blur(10px);
       border-bottom: 1px solid rgba(255, 255, 255, 0.05);
       transition: all 0.3s ease;
@@ -43,14 +40,14 @@
     .nav-container {
       max-width: 1200px;
       margin: 0 auto;
-      padding: 0.8rem 1.5rem;
+      padding: 0.8rem 2rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
 
     .nav-logo img {
-      height: 28px;
+      height: 32px;
       width: auto;
       object-fit: contain;
     }
@@ -82,44 +79,6 @@
       font-weight: 600 !important;
     }
 
-    /* Mobile Menu Toggle */
-    #menu-toggle:checked ~ .mobile-nav {
-      transform: translateX(0);
-    }
-
-    .mobile-nav {
-      position: fixed;
-      top: 0;
-      right: 0;
-      width: 80%;
-      height: 100vh;
-      background: #0f172a;
-      z-index: 2000;
-      transform: translateX(100%);
-      transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-      padding: 5rem 2rem;
-      display: flex;
-      flex-direction: column;
-      gap: 1.5rem;
-      box-shadow: -10px 0 30px rgba(0,0,0,0.5);
-    }
-
-    .mobile-nav a {
-      color: white;
-      font-size: 1.2rem;
-      font-weight: 600;
-      text-decoration: none;
-      padding-bottom: 0.5rem;
-      border-bottom: 1px solid rgba(255,255,255,0.1);
-    }
-
-    .menu-btn {
-      display: none;
-      cursor: pointer;
-      color: white;
-      z-index: 2100;
-    }
-
     /* HERO SECTION */
     .hero {
       position: relative;
@@ -137,7 +96,7 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background-image: linear-gradient(rgba(15, 23, 42, 0.9), rgba(15, 23, 42, 0.8)), url('https://lh3.googleusercontent.com/aida-public/AB6AXuCv2m464jRySqxEHXtJBz-t7PGZTelYD77614Imd3QaZLbcLTGpmzRzDH3pu7qiDBxHzCPhdtS471ZhHO-jvPridR9qFtknoK7l7nsnRl6wDDIXMjGZvjjy_HDM74udlHzg4JaRXvnZqRgu2QDjYg4nydTncJMaABsZIhtWiJR05IlKMHE41dTDkSGyrXKoJh45TDEu4OFv4dDJKlNJaysDb_oMA-rSqOd_kVUctC7LW1rCThEkAd49Sf3lAnap0KBZpOw');
+      background-image: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.7)), url('https://lh3.googleusercontent.com/aida-public/AB6AXuCv2m464jRySqxEHXtJBz-t7PGZTelYD77614Imd3QaZLbcLTGpmzRzDH3pu7qiDBxHzCPhdtS471ZhHO-jvPridR9qFtknoK7l7nsnRl6wDDIXMjGZvjjy_HDM74udlHzg4JaRXvnZqRgu2QDjYg4nydTncJMaABsZIhtWiJR05IlKMHE41dTDkSGyrXKoJh45TDEu4OFv4dDJKlNJaysDb_oMA-rSqOd_kVUctC7LW1rCThEkAd49Sf3lAnap0KBZpOw');
       background-size: cover;
       background-position: center;
       z-index: -1;
@@ -146,7 +105,7 @@
     .hero-container {
       max-width: 1200px;
       margin: 0 auto;
-      padding: 4rem 1.5rem;
+      padding: 4rem 2rem;
       display: grid;
       grid-template-columns: 1.2fr 0.8fr;
       gap: 4rem;
@@ -156,16 +115,16 @@
     .hero-label {
       color: var(--primary);
       font-weight: 700;
-      font-size: 0.8rem;
+      font-size: 0.85rem;
       letter-spacing: 0.15em;
-      margin-bottom: 1rem;
+      margin-bottom: 1.5rem;
     }
 
     .hero-title {
-      font-size: clamp(2.2rem, 8vw, 4rem);
+      font-size: clamp(2.5rem, 5vw, 4rem);
       line-height: 1.1;
       font-weight: 800;
-      margin-bottom: 1.5rem;
+      margin-bottom: 2rem;
     }
 
     .hero-title .accent {
@@ -173,57 +132,66 @@
     }
 
     .hero-sub {
-      font-size: 1rem;
-      line-height: 1.6;
+      font-size: 1.15rem;
+      line-height: 1.7;
       opacity: 0.9;
       max-width: 600px;
-      margin-bottom: 1.5rem;
+      margin-bottom: 2rem;
       font-weight: 300;
     }
 
     .hero-tagline {
       font-weight: 600;
-      font-size: 1rem;
-      margin-bottom: 2rem;
+      font-size: 1.1rem;
+      margin-bottom: 2.5rem;
       border-left: 3px solid var(--primary);
       padding-left: 1rem;
     }
 
     .hero-ctas {
       display: flex;
-      gap: 1rem;
-      flex-direction: column;
+      gap: 1.5rem;
+      flex-wrap: wrap;
     }
 
     .btn-primary {
       background: linear-gradient(135deg, #00AEEF 0%, #0090C8 100%);
       color: white;
-      padding: 1rem 1.5rem;
+      padding: 1.1rem 2.2rem;
       border-radius: 8px;
       font-weight: 700;
       text-decoration: none;
       box-shadow: 0 10px 20px rgba(0, 174, 239, 0.2);
       transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
       display: inline-block;
-      text-align: center;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 15px 30px rgba(0, 174, 239, 0.3);
     }
 
     .btn-secondary {
       background: transparent;
       color: white;
-      padding: 1rem 1.5rem;
+      padding: 1.1rem 2.2rem;
       border-radius: 8px;
       font-weight: 600;
       text-decoration: none;
       border: 1px solid rgba(255, 255, 255, 0.3);
       transition: all 0.4s ease;
       display: inline-block;
-      text-align: center;
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.05);
+      border-color: var(--primary);
+      box-shadow: 0 0 20px rgba(0, 174, 239, 0.2);
     }
 
     .hero-image {
       display: flex;
-      justify-content: center;
+      justify-content: flex-end;
     }
 
     .hero-logo-display {
@@ -234,8 +202,6 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 100%;
-      max-width: 400px;
     }
 
     .hero-logo-display img {
@@ -266,28 +232,28 @@
 
     /* SECTORS CAROUSEL */
     .sector-section {
-      padding: 4rem 0;
-      background: #0f172a;
+      padding: 6rem 0;
+      background: #f8fafc;
     }
 
     .sector-header {
       text-align: center;
       max-width: 800px;
-      margin: 0 auto 3rem;
-      padding: 0 1.5rem;
+      margin: 0 auto 4rem;
+      padding: 0 2rem;
     }
 
     .section-label {
       color: var(--primary);
       font-weight: 800;
-      font-size: 0.7rem;
+      font-size: 0.75rem;
       letter-spacing: 0.2em;
-      margin-bottom: 0.75rem;
+      margin-bottom: 1rem;
     }
 
     .sector-header h2 {
-      font-size: 1.6rem;
-      color: white;
+      font-size: 2.2rem;
+      color: var(--dark);
       line-height: 1.3;
     }
 
@@ -301,7 +267,7 @@
 
     .sector-carousel {
       display: inline-flex;
-      animation: scroll 30s linear infinite;
+      animation: scroll 45s linear infinite;
     }
 
     @keyframes scroll {
@@ -310,49 +276,50 @@
     }
 
     .sector-card {
-      margin: 0 1rem;
-      height: 180px;
-      width: 300px;
-      flex-shrink: 0;
-      filter: none;
-      opacity: 1;
+      margin: 0 2rem;
+      height: 60px;
+      filter: grayscale(1) opacity(0.6);
+      transition: all 0.3s;
+    }
+
+    .sector-card:hover {
+      filter: grayscale(0) opacity(1);
     }
 
     .sector-card img {
-      width: 100%;
       height: 100%;
-      object-fit: cover;
-      border-radius: 4px;
+      object-fit: contain;
     }
 
     /* SERVICIOS */
     .servicios-section {
-      padding: 5rem 0;
+      padding: 8rem 0;
     }
 
     .container {
       max-width: 1200px;
       margin: 0 auto;
-      padding: 0 1.5rem;
+      padding: 0 2rem;
     }
 
     .servicios-header-grid {
       display: grid;
-      grid-template-columns: 1fr;
-      gap: 2rem;
-      margin-bottom: 4rem;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      margin-bottom: 6rem;
+      align-items: center;
     }
 
     .servicios-dashboard img {
-      border-radius: 4px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      border-radius: 0px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.1);
       width: 100%;
     }
 
     .servicio-block {
-      margin-bottom: 4rem;
+      margin-bottom: 6rem;
       border-top: 1px solid #e2e8f0;
-      padding-top: 3rem;
+      padding-top: 4rem;
     }
 
     .servicio-tag {
@@ -361,63 +328,68 @@
       color: #64748b;
       padding: 0.4rem 1rem;
       border-radius: 4px;
-      font-size: 0.7rem;
+      font-size: 0.75rem;
       font-weight: 700;
-      margin-bottom: 1.5rem;
+      margin-bottom: 2rem;
     }
 
     .servicio-inner {
       display: grid;
-      grid-template-columns: 1fr;
-      gap: 2.5rem;
+      grid-template-columns: 1fr 2fr;
+      gap: 4rem;
     }
 
     .servicio-code {
-      font-size: 3rem;
+      font-size: 4rem;
       font-weight: 900;
       color: rgba(0, 174, 239, 0.75);
-      margin-bottom: -0.5rem;
+      margin-bottom: -1rem;
     }
 
     .servicio-title {
-      font-size: 2rem;
+      font-size: 2.5rem;
       font-weight: 800;
-      margin-bottom: 1rem;
+      margin-bottom: 1.5rem;
       line-height: 1.1;
     }
 
     .servicio-desc {
-      font-size: 1rem;
+      font-size: 1.1rem;
       line-height: 1.6;
       color: #64748b;
     }
 
     .servicio-quote {
-      font-size: 1.2rem;
+      font-size: 1.4rem;
       font-weight: 600;
       color: var(--dark);
-      margin-bottom: 2rem;
+      margin-bottom: 3rem;
       font-style: italic;
     }
 
     .beneficios-grid {
       display: grid;
-      grid-template-columns: 1fr;
-      gap: 1rem;
-      margin-bottom: 2.5rem;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      margin-bottom: 3rem;
     }
 
     .beneficio-card {
       background: #f8fafc;
-      padding: 1.5rem;
-      border-radius: 4px;
+      padding: 2rem;
+      border-radius: 0px;
+      transition: transform 0.3s ease;
+    }
+
+    .beneficio-card:hover {
+      transform: translateY(-5px);
     }
 
     .beneficio-title {
       font-weight: 800;
-      font-size: 0.75rem;
+      font-size: 0.8rem;
       color: var(--primary);
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.75rem;
     }
 
     .servicio-items {
@@ -427,74 +399,70 @@
 
     .item {
       display: flex;
-      align-items: flex-start;
+      align-items: center;
       gap: 0.75rem;
       font-weight: 500;
-      font-size: 0.95rem;
     }
 
     /* CASOS */
     .casos-section {
-      padding: 5rem 0;
+      padding: 8rem 0;
       background: #0f172a;
       color: white;
     }
 
     .testimonios-grid {
       display: grid;
-      grid-template-columns: 1fr;
-      gap: 1.5rem;
-      margin-top: 3rem;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin-top: 4rem;
     }
 
     .testimonio-card {
       background: rgba(255, 255, 255, 0.03);
-      padding: 2rem;
-      border-radius: 4px;
+      padding: 2.5rem;
+      border-radius: 0px;
       border: 1px solid rgba(255, 255, 255, 0.05);
     }
 
     .testimonio-icon {
       color: var(--primary);
       font-weight: 800;
-      margin-bottom: 0.75rem;
-      font-size: 0.8rem;
+      margin-bottom: 1rem;
     }
 
     .testimonio-titulo {
       font-weight: 700;
-      margin-bottom: 1rem;
+      margin-bottom: 1.5rem;
       font-size: 1.1rem;
-      line-height: 1.3;
     }
 
     blockquote {
       font-style: italic;
       line-height: 1.6;
       opacity: 0.8;
-      margin-bottom: 1.5rem;
-      font-size: 0.95rem;
+      margin-bottom: 2rem;
     }
 
     .testimonio-autor {
-      font-size: 0.8rem;
+      font-size: 0.85rem;
       color: var(--primary);
       font-weight: 600;
     }
 
     /* CONSULTOR SECTION */
     .consultor-section {
-      padding: 6rem 0;
+      padding: 10rem 0;
       background: #ffffff;
     }
 
     .consultor-container {
       max-width: 1100px;
       margin: 0 auto;
-      padding: 0 1.5rem;
+      padding: 0 2rem;
       display: grid;
-      grid-template-columns: 1fr;
-      gap: 3rem;
+      grid-template-columns: 1fr 1.2fr;
+      gap: 5rem;
       align-items: center;
     }
 
@@ -504,112 +472,139 @@
 
     .photo-frame {
       border: 1px solid var(--primary);
-      padding: 0.75rem;
+      padding: 1rem;
+      border-radius: 0px;
       background: white;
+      box-shadow: 30px 30px 0 -5px rgba(0, 174, 239, 0.05);
     }
 
     .photo-frame img {
       width: 100%;
-      height: 450px;
-      object-fit: cover;
+      height: 600px;
+      object-fit: contain;
       display: block;
     }
 
     .photo-tag {
       position: absolute;
-      bottom: -10px;
-      right: -10px;
+      bottom: -20px;
+      right: -20px;
       background: var(--dark);
       color: white;
-      padding: 0.75rem 1.5rem;
+      padding: 1rem 2rem;
       font-weight: 800;
-      font-size: 0.7rem;
+      font-size: 0.75rem;
       letter-spacing: 0.1em;
     }
 
     .consultor-bio h2 {
-      font-size: 2.2rem;
+      font-size: 2.8rem;
       font-weight: 800;
       margin-bottom: 0.5rem;
     }
 
     .bio-role {
-      font-size: 1rem;
+      font-size: 1.1rem;
       color: var(--primary);
       font-weight: 600;
-      margin-bottom: 1.5rem;
+      margin-bottom: 2rem;
     }
 
     .bio-divider {
-      width: 50px;
+      width: 60px;
       height: 4px;
       background: var(--primary);
-      margin-bottom: 1.5rem;
+      margin-bottom: 2rem;
     }
 
     .consultor-bio p {
-      font-size: 1rem;
-      line-height: 1.6;
-      margin-bottom: 1.25rem;
+      font-size: 1.05rem;
+      line-height: 1.7;
+      margin-bottom: 1.5rem;
       color: #475569;
     }
 
     .bio-tags {
       display: flex;
       flex-wrap: wrap;
-      gap: 0.75rem;
-      margin-top: 1.5rem;
+      gap: 1rem;
+      margin-top: 2rem;
     }
 
     .bio-tags span {
       background: #f1f5f9;
-      padding: 0.4rem 0.8rem;
+      padding: 0.5rem 1rem;
       border-radius: 100px;
-      font-size: 0.75rem;
+      font-size: 0.8rem;
       font-weight: 600;
       color: #64748b;
     }
 
     /* CONTACTO */
     .contacto-section {
-      padding: 5rem 0;
+      padding: 8rem 0;
       background: #f8fafc;
     }
 
     .contacto-info {
       display: grid;
-      grid-template-columns: 1fr;
-      gap: 1.5rem;
-      margin-top: 3rem;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin-top: 4rem;
     }
 
     .contacto-item {
       background: white;
-      padding: 1.5rem;
+      padding: 2rem;
+      border-radius: 0px;
       display: flex;
       align-items: center;
-      gap: 1.25rem;
+      gap: 1.5rem;
       text-decoration: none;
       color: var(--dark);
+      transition: all 0.3s;
       border: 1px solid rgba(0,0,0,0.05);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .contacto-item::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(45deg, transparent, rgba(255,255,255,0.2), transparent);
+      transition: left 0.6s ease;
+      pointer-events: none;
+    }
+
+    .contacto-item:hover::after {
+      left: 100%;
+    }
+
+    .contacto-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 30px rgba(0,0,0,0.05);
     }
 
     .contacto-icon {
-      width: 45px;
-      height: 45px;
+      width: 50px;
+      height: 50px;
       background: var(--primary);
       color: white;
-      border-radius: 8px;
+      border-radius: 10px;
       display: flex;
       align-items: center;
       justify-content: center;
       flex-shrink: 0;
     }
 
-    .contacto-icon svg { width: 22px; height: 22px; }
+    .contacto-icon svg { width: 24px; height: 24px; }
 
     .contacto-label {
-      font-size: 0.7rem;
+      font-size: 0.8rem;
       font-weight: 700;
       color: #94a3b8;
       text-transform: uppercase;
@@ -617,28 +612,29 @@
 
     .contacto-value {
       font-weight: 700;
-      font-size: 1rem;
+      font-size: 1.1rem;
     }
 
     /* FOOTER */
     .footer {
-      background: #000000;
+      background: #0f172a;
       color: white;
-      padding: 4rem 0 2rem;
+      padding: 5rem 0 2rem;
     }
 
     .footer-container {
       max-width: 1200px;
       margin: 0 auto;
-      padding: 0 1.5rem;
+      padding: 0 2rem;
       display: grid;
-      grid-template-columns: 1fr;
-      gap: 3rem;
+      grid-template-columns: 2fr 1fr 1fr;
+      gap: 4rem;
     }
 
     .footer-logo img {
-      height: 32px;
-      margin-bottom: 1.5rem;
+      height: 40px;
+      margin-bottom: 2rem;
+      filter: brightness(0) invert(1);
     }
 
     .footer-links, .footer-contact {
@@ -650,95 +646,68 @@
     .footer-links a, .footer-contact a {
       color: rgba(255, 255, 255, 0.6);
       text-decoration: none;
-      font-size: 0.95rem;
+      transition: color 0.3s;
+    }
+
+    .footer-links a:hover, .footer-contact a:hover {
+      color: white;
     }
 
     .footer-bottom {
       border-top: 1px solid rgba(255, 255, 255, 0.05);
-      margin-top: 3rem;
+      margin-top: 4rem;
       padding-top: 2rem;
       text-align: center;
-      font-size: 0.75rem;
+      font-size: 0.8rem;
       opacity: 0.5;
     }
 
-    /* WHATSAPP FLOAT */
+    /* FLOATING */
     .whatsapp-float {
       position: fixed;
-      bottom: 20px;
-      right: 20px;
-      width: 55px;
-      height: 55px;
+      bottom: 30px;
+      right: 30px;
+      width: 60px;
+      height: 60px;
       background: #25d366;
       color: white;
       border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      box-shadow: 0 10px 25px rgba(37, 211, 102, 0.3);
       z-index: 999;
+      transition: transform 0.3s;
     }
 
-    .whatsapp-float svg { width: 28px; height: 28px; }
-
-    /* MEDIA QUERIES FOR DESKTOP RESTORATION */
-    @media (min-width: 969px) {
-      .nav-container { padding: 0.8rem 2rem; }
-      .nav-logo img { height: 32px; }
-      .menu-btn, .mobile-nav { display: none; }
-      .hero-container { grid-template-columns: 1.2fr 0.8fr; padding: 4rem 2rem; }
-      .hero-title { font-size: clamp(2.5rem, 5vw, 4rem); }
-      .hero-sub { font-size: 1.15rem; margin-bottom: 2rem; }
-      .hero-ctas { flex-direction: row; }
-      .sector-section { padding: 6rem 0; }
-      .sector-header h2 { font-size: 2.2rem; }
-      .sector-card { height: 280px; width: 450px; margin: 0 2rem; }
-      .servicios-header-grid { grid-template-columns: 1fr 1fr; gap: 4rem; margin-bottom: 6rem; }
-      .servicio-block { margin-bottom: 6rem; padding-top: 4rem; }
-      .servicio-inner { grid-template-columns: 1fr 2fr; gap: 4rem; }
-      .servicio-title { font-size: 2.5rem; }
-      .servicio-quote { font-size: 1.4rem; }
-      .beneficios-grid { grid-template-columns: 1fr 1fr; gap: 2rem; }
-      .testimonios-grid { grid-template-columns: 1fr 1fr; gap: 2rem; }
-      .consultor-container { grid-template-columns: 1fr 1.2fr; gap: 5rem; padding: 0 2rem; }
-      .photo-frame img { height: 600px; }
-      .contacto-info { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }
-      .footer-container { grid-template-columns: 2fr 1fr 1fr; gap: 4rem; }
-      .whatsapp-float { bottom: 30px; right: 30px; width: 60px; height: 60px; }
+    .whatsapp-float:hover {
+      transform: scale(1.1);
     }
+
+    .whatsapp-float svg { width: 32px; height: 32px; }
 
     @media (max-width: 968px) {
+      .hero-container, .servicios-header-grid, .servicio-inner, .consultor-container, .footer-container {
+        grid-template-columns: 1fr;
+      }
+      .hero-image { display: none; }
       .nav-links { display: none; }
-      .menu-btn { display: block; }
+      .consultor-photo .photo-frame img { height: 400px; }
     }
   </style>
 </head>
 <body>
 <!-- NAVBAR -->
-<nav class="navbar" id="navbar">
+<nav class="navbar" id="navbar" style="background: rgb(0, 0, 0); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(255, 255, 255, 0.05);">
 <div class="nav-container">
-<a class="nav-logo" href="#inicio">
-<img alt="Consultor Kenneth" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAHDra0WSLuddA5Qd5X2R6YsaFifz3twWQH3HkTlrVbjmqz5vzd7PXWhWAODGsqP9gMXU3HH1f0GTDvoExv2aboepshqKMJfnKx3K-I_p_EMXSyAPyudU059SidwOVJSpEunjIuCjJlAqjR2oO-AVBjeNklUMlQHxBSPEAuCXKXQrgrzvYD7-lPWl7WRFQpcEy_PkB_FVyi_uzRH-Epnq7Dc9qGsZMUV_T_WZZf34emd6CXWcRRa5-rpy-sTbVTq72M8W8"/>
-</a>
-<label class="menu-btn" for="menu-toggle">
-<span class="material-symbols-outlined">menu</span>
-</label>
-<input class="hidden" id="menu-toggle" type="checkbox"/>
-<div class="mobile-nav">
-<a href="#inicio" onclick="document.getElementById('menu-toggle').checked = false">Inicio</a>
-<a href="#servicios" onclick="document.getElementById('menu-toggle').checked = false">Servicios</a>
-<a href="#casos" onclick="document.getElementById('menu-toggle').checked = false">Casos Reales</a>
-<a href="#consultor" onclick="document.getElementById('menu-toggle').checked = false">El Consultor</a>
-<a href="#contacto" onclick="document.getElementById('menu-toggle').checked = false">Contacto</a>
-<a class="btn-nav" href="https://wa.me/50688599091" style="background: var(--primary); text-align: center; margin-top: 1rem;">Agendá llamada</a>
-</div>
+<a class="nav-logo" href="#inicio"><img alt="Consultor Kenneth" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAHDra0WSLuddA5Qd5X2R6YsaFifz3twWQH3HkTlrVbjmqz5vzd7PXWhWAODGsqP9gMXU3HH1f0GTDvoExv2aboepshqKMJfnKx3K-I_p_EMXSyAPyudU059SidwOVJSpEunjIuCjJlAqjR2oO-AVBjeNklUMlQHxBSPEAuCXKXQrgrzvYD7-lPWl7WRFQpcEy_PkB_FVyi_uzRH-Epnq7Dc9qGsZMUV_T_WZZf34emd6CXWcRRa5-rpy-sTbVTq72M8W8"></a><div class="mobile-toggle md:hidden" id="mobile-menu-toggle"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></div>
 <ul class="nav-links">
-<li><a href="#inicio">Inicio</a></li>
-<li><a href="#servicios">Servicios</a></li>
-<li><a href="#casos">Casos Reales</a></li>
-<li><a href="#consultor">El Consultor</a></li>
-<li><a href="#contacto">Contacto</a></li>
-<li><a class="btn-nav" href="https://wa.me/50688599091" target="_blank">Agendá tu llamada</a></li>
+<li class=""><a class="" href="#inicio">Inicio</a></li>
+<li class=""><a class="" href="#servicios">Servicios</a></li>
+<li class=""><a class="" href="#casos">Casos Reales</a></li>
+<li class=""><a class="" href="#consultor">El Consultor</a></li>
+<li class=""><a class="" href="#contacto">Contacto</a></li>
+<li class=""><a class="btn-nav" href="https://wa.me/50688599091?text=Hola!%20Deseo%20mayor%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20Consultor%20Kenneth!" target="_blank">Agendá tu llamada</a></li>
 </ul>
 </div>
 </nav>
@@ -749,42 +718,37 @@
 <div class="hero-text">
 <div class="hero-label">// CONSULTORÍA EMPRESARIAL · COSTA RICA</div>
 <h1 class="hero-title">
-        Su PYME trabaja duro.<br/>
-<span class="accent">¿Quién cuida que las regulaciones no la detengan?</span>
+          Su PYME trabaja duro.<br>
+<span class="accent">¿Quién cuida que las<br>regulaciones no la detengan?</span>
 </h1>
 <p class="hero-sub">Conocemos la realidad del empresario costarricense. Sabemos lo que cuesta una multa de Hacienda, un cierre del Ministerio de Salud o una sociedad bloqueada por el Registro Nacional. No hablamos de teoría. Hablamos de lo que le pasa a las PYMES de Costa Rica todos los días.</p>
 <div class="hero-tagline">Nuestra empresa cuida a otras empresas.</div>
 <div class="hero-ctas">
-<a class="btn-primary" href="https://wa.me/50688599091" target="_blank">Agendá tu llamada ahora mismo</a>
+<a class="btn-primary" href="https://wa.me/50688599091?text=Hola!%20Deseo%20mayor%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20Consultor%20Kenneth!" target="_blank">Agendá tu llamada ahora mismo</a>
 <a class="btn-secondary" href="#servicios">Conocé nuestros servicios</a>
 </div>
 </div>
-<div class="hero-image hidden md:flex">
-<div class="hero-logo-display">
-<img alt="Consultor Kenneth" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDY8jMWgzSic21tkn77CRB2xZVdCPNDdqlk2_Muk8WtlGJACFQPTZscHlPSnRvxA1Kr2nhflzoTiLeBgqszRBE8hQPAjTi3IkwzzBiESUeD-srQN-h-6QHLDZ4HH_nDiFUlCzwFtgHk7WnolQqAoR_U7PTd7-mDVi6vDSQROc-bx6Mhv7fAVcu2f9_MN0LZQCjgaCoyaksgfbwqiQ3voj8hjQT4UEc7h1gccEuGJT1zTXG-ksQoZvFNB61Yb88I70YlqJE"/>
-<div class="light-sweep"></div>
-</div>
+<div class="hero-image">
+<div class="hero-logo-display"><img alt="Consultor Kenneth" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDY8jMWgzSic21tkn77CRB2xZVdCPNDdqlk2_Muk8WtlGJACFQPTZscHlPSnRvxA1Kr2nhflzoTiLeBgqszRBE8hQPAjTi3IkwzzBiESUeD-srQN-h-6QHLDZ4HH_nDiFUlCzwFtgHk7WnolQqAoR_U7PTd7-mDVi6vDSQROc-bx6Mhv7fAVcu2f9_MN0LZQCjgaCoyaksgfbwqiQ3voj8hjQT4UEc7h1gccEuGJT1zTXG-ksQoZvFNB61Yb88I70YlqJE"><div class="light-sweep"></div></div>
 </div>
 </div>
 </section>
 <!-- SECTOR PYMES -->
-<section class="sector-section">
+<section class="sector-section" style="background: rgb(15, 23, 42); padding: 6rem 0px;">
 <div class="sector-header">
 <div class="section-label">// CONOCEMOS SU REALIDAD</div>
-<h2>Trabajamos con PYMES de <span class="accent">todos los sectores.</span><br/>Las conocemos y hablamos su idioma.</h2>
+<h2 class="" style="color: white;">Trabajamos con PYMES de <span class="accent">todos los sectores.</span><br>Las conocemos, las entendemos y hablamos su idioma.</h2>
 </div>
-<div class="sector-carousel-wrapper">
+<div class="sector-carousel-wrapper mt-12">
 <div class="sector-carousel">
-<!-- Duplicated for infinite effect -->
-<div class="sector-card"><img alt="Lavacar" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCJ6gOjRZQgWmQl1ljXJ4hPGwR9CjdcwfuQl9otVGKg93zfvYbZgJP4jf4E1-pcuUVJND5R8Qi8I4YUTcqUBbmhoxmKDfnFsNukEKwxlQBjII2GxO5Uhl4Wup4oUAiijJIRLo5XuRY4Te00TFQmQAPSk4S88CwtYQINjdVDs6VA90E4NK_zAC86hfNLK36kxqNhUv8CMNgyvYT8vT5cT18Cd7Cdtw1A4dZgEHd6Stk1aU2NBr_fZUfojlo0cSGEn-Xfb8"/></div>
-<div class="sector-card"><img alt="Llantera" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDsd3Gq_pHUiBBQQ0l0BNIABNfQ6hoo1WlnHW2f5ekndRhCa19-KV-PxxFv3lVb-PRh7CBoVo53QK60MU0UiXoA3TqsRWmIoFtZFpnvpzGY_Da_7EC67K8fVebDpVcCJAwBTzxURRFW2StOxFBzXt_Rox-q6-HTlFPgeB30SMi-uiQFx4oMp37Qd6OVNtIfoQ-MoGCAavPUSF94hXqgFgZwIeJ0d2exSVu8Oxa2ULD71dEEPazhR1KRhxoaxnwJhr6BvLA"/></div>
-<div class="sector-card"><img alt="Clínica Dental" src="https://lh3.googleusercontent.com/aida-public/AB6AXuALNIc4VV7rwT6qokkpQ1fiak7dhh6lHZQPRGVxjuVt62WbvHHXEXpoCCvsKfRruLrCHhK2UAa1xhO-dYBDLR6ZgnQYqZlbuUbo-ecjLu2NhdD0tkk6JuV0qxE9KcfAqA_9MNMIDS6_pqTtlcFB2CVrylfyUVj2htn1ngiOENPAexEkapoPsHT359cW5kHyCyUK9hGmvJo8aVA84l2tRZmfRIUM472n6DVtGGEQL2ETSUDYAdCyCOJ_LDlciGPO2a77LPo"/></div>
-<div class="sector-card"><img alt="Panadería" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKR0B6FZnnEXzgbr7ht6VSQ8Uq3TYAQbY8wGjMsuh9T0D2dCxtl_EEDrrwwhie1bpFXXLIOP4qAWG8qHfiprkMdu0xwUCciet8C9L2bLczkaHxhCav9Yp6vBJRdTnuXQder1QGhZm_R12CDeq4cPQ9sa5I7AEfAnWHtB-CWAzB4R7rQ8_mb1vxBIAsycY3-QbJJ7Xtn1mu3iS4x7oTTGtKKYFqrElmehlZ6Nqg0Epu3mBqpSemtsFzcggCo_l3aIM1H0s"/></div>
-<!-- Duplicate -->
-<div class="sector-card"><img alt="Lavacar" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCJ6gOjRZQgWmQl1ljXJ4hPGwR9CjdcwfuQl9otVGKg93zfvYbZgJP4jf4E1-pcuUVJND5R8Qi8I4YUTcqUBbmhoxmKDfnFsNukEKwxlQBjII2GxO5Uhl4Wup4oUAiijJIRLo5XuRY4Te00TFQmQAPSk4S88CwtYQINjdVDs6VA90E4NK_zAC86hfNLK36kxqNhUv8CMNgyvYT8vT5cT18Cd7Cdtw1A4dZgEHd6Stk1aU2NBr_fZUfojlo0cSGEn-Xfb8"/></div>
-<div class="sector-card"><img alt="Llantera" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDsd3Gq_pHUiBBQQ0l0BNIABNfQ6hoo1WlnHW2f5ekndRhCa19-KV-PxxFv3lVb-PRh7CBoVo53QK60MU0UiXoA3TqsRWmIoFtZFpnvpzGY_Da_7EC67K8fVebDpVcCJAwBTzxURRFW2StOxFBzXt_Rox-q6-HTlFPgeB30SMi-uiQFx4oMp37Qd6OVNtIfoQ-MoGCAavPUSF94hXqgFgZwIeJ0d2exSVu8Oxa2ULD71dEEPazhR1KRhxoaxnwJhr6BvLA"/></div>
-<div class="sector-card"><img alt="Clínica Dental" src="https://lh3.googleusercontent.com/aida-public/AB6AXuALNIc4VV7rwT6qokkpQ1fiak7dhh6lHZQPRGVxjuVt62WbvHHXEXpoCCvsKfRruLrCHhK2UAa1xhO-dYBDLR6ZgnQYqZlbuUbo-ecjLu2NhdD0tkk6JuV0qxE9KcfAqA_9MNMIDS6_pqTtlcFB2CVrylfyUVj2htn1ngiOENPAexEkapoPsHT359cW5kHyCyUK9hGmvJo8aVA84l2tRZmfRIUM472n6DVtGGEQL2ETSUDYAdCyCOJ_LDlciGPO2a77LPo"/></div>
-<div class="sector-card"><img alt="Panadería" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKR0B6FZnnEXzgbr7ht6VSQ8Uq3TYAQbY8wGjMsuh9T0D2dCxtl_EEDrrwwhie1bpFXXLIOP4qAWG8qHfiprkMdu0xwUCciet8C9L2bLczkaHxhCav9Yp6vBJRdTnuXQder1QGhZm_R12CDeq4cPQ9sa5I7AEfAnWHtB-CWAzB4R7rQ8_mb1vxBIAsycY3-QbJJ7Xtn1mu3iS4x7oTTGtKKYFqrElmehlZ6Nqg0Epu3mBqpSemtsFzcggCo_l3aIM1H0s"/></div>
+<div class="sector-card" style="width: 450px; height: 280px; filter: none; opacity: 1; margin: 0px 2rem;"><img alt="Lavacar" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCJ6gOjRZQgWmQl1ljXJ4hPGwR9CjdcwfuQl9otVGKg93zfvYbZgJP4jf4E1-pcuUVJND5R8Qi8I4YUTcqUBbmhoxmKDfnFsNukEKwxlQBjII2GxO5Uhl4Wup4oUAiijJIRLo5XuRY4Te00TFQmQAPSk4S88CwtYQINjdVDs6VA90E4NK_zAC86hfNLK36kxqNhUv8CMNgyvYT8vT5cT18Cd7Cdtw1A4dZgEHd6Stk1aU2NBr_fZUfojlo0cSGEn-Xfb8"></div>
+<div class="sector-card" style="width: 450px; height: 280px; filter: none; opacity: 1; margin: 0px 2rem;"><img alt="Llantera" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDsd3Gq_pHUiBBQQ0l0BNIABNfQ6hoo1WlnHW2f5ekndRhCa19-KV-PxxFv3lVb-PRh7CBoVo53QK60MU0UiXoA3TqsRWmIoFtZFpnvpzGY_Da_7EC67K8fVebDpVcCJAwBTzxURRFW2StOxFBzXt_Rox-q6-HTlFPgeB30SMi-uiQFx4oMp37Qd6OVNtIfoQ-MoGCAavPUSF94hXqgFgZwIeJ0d2exSVu8Oxa2ULD71dEEPazhR1KRhxoaxnwJhr6BvLA"></div>
+<div class="sector-card" style="width: 450px; height: 280px; filter: none; opacity: 1; margin: 0px 2rem;"><img alt="Clínica Dental" src="https://lh3.googleusercontent.com/aida-public/AB6AXuALNIc4VV7rwT6qokkpQ1fiak7dhh6lHZQPRGVxjuVt62WbvHHXEXpoCCvsKfRruLrCHhK2UAa1xhO-dYBDLR6ZgnQYqZlbuUbo-ecjLu2NhdD0tkk6JuV0qxE9KcfAqA_9MNMIDS6_pqTtlcFB2CVrylfyUVj2htn1ngiOENPAexEkapoPsHT359cW5kHyCyUK9hGmvJo8aVA84l2tRZmfRIUM472n6DVtGGEQL2ETSUDYAdCyCOJ_LDlciGPO2a77LPo"></div>
+<div class="sector-card" style="width: 450px; height: 280px; filter: none; opacity: 1; margin: 0px 2rem;"><img alt="Panadería" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKR0B6FZnnEXzgbr7ht6VSQ8Uq3TYAQbY8wGjMsuh9T0D2dCxtl_EEDrrwwhie1bpFXXLIOP4qAWG8qHfiprkMdu0xwUCciet8C9L2bLczkaHxhCav9Yp6vBJRdTnuXQder1QGhZm_R12CDeq4cPQ9sa5I7AEfAnWHtB-CWAzB4R7rQ8_mb1vxBIAsycY3-QbJJ7Xtn1mu3iS4x7oTTGtKKYFqrElmehlZ6Nqg0Epu3mBqpSemtsFzcggCo_l3aIM1H0s"></div>
+<div class="sector-card" style="width: 450px; height: 280px; filter: none; opacity: 1; margin: 0px 2rem;"><img alt="Lavacar" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDD0fS-ux3OwQWknyvgkmzN1iR2U3n2gnA4rLqvEEklz2O6FBgogtnUvVFph8vLqR5TTppytDk03LTzPArvl0xzXC7e_q9uwzpnbRtDPJT0usYOYbeT6R0A1yfn78ABomhm-EQBQB2xGf5r4mVrCQSxgWyh7BqFf2XbdE-Ir-K680BLKvPbmQr93o7Ht3B6TZ2XAMz53oPW16D7D5PMKHuj8Mwp6UxcHVVoNAsxWb0bHCmvkefL9_aNhNOnpoXpCLrT9eY"></div>
+<div class="sector-card" style="width: 450px; height: 280px; filter: none; opacity: 1; margin: 0px 2rem;"><img alt="Llantera" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHbZCmk652KfDHXDVfL8P5vYBAM0y5MvidW-f_zPf7-_Q7eGmBFVFheQ3lYX933SVmyoR9U93gtTiVt3swamaKO57vxJGUiGif8KWQIfGok5e4QgakbbBBm1m7ottk782AmtrdFBGpvTtApYR3y_u3cqBTjkLkXMcNamLbq-nMZmUWxqC6oSpRglvIc8KVCrfMYWskcrWZhDqvFt2nYWdRg7wrwXTDDto8g6zFzQtw10fLJtSUSxpMe6YeBW1fnZEWi4g"></div>
+<div class="sector-card" style="width: 450px; height: 280px; filter: none; opacity: 1; margin: 0px 2rem;"><img alt="Clínica Dental" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDItR8u6Mmp549dCZ7nkaKDNwP1DYm-S1loWtXxGfqJTNe_OkUTqJw2rM2BTcNYzwUPPD4M6pWs2CvqTqZG4T9B0Ad5Bi7nkCOA9ZyWblDmnvZm-Okkz96P6YbulTurppSCxr05WAxW8LsKg2XrEuf5nqpLg3R_VHKfWlH0fdzgGM3GTpxNPRYtDscmvTRzky6BWKvqPuebiQiIex09NllhzHtTenFA4pAgYeszWUpUubH7dLHjJbfBoTfdD67-roNxWNs"></div>
+<div class="sector-card" style="width: 450px; height: 280px; filter: none; opacity: 1; margin: 0px 2rem;"><img alt="Panadería" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA2DB9JJ0iyfw7DIHztRcYAsSSkZCxm6J32PraOK5XePg4j2S6nObwgqyxp8D2uUADMx-MqO7aQBPlt3QwobSC8rNFS8B9_Aq8WNzNRzBmWAsfO7pYEJDxSsRS232E69iWi6T7GC6iPQEWJuBJ_oF2uuML0EpbguCCLZ6KPPpExumXABFDZzg9G5OM9kJk_GYklorQ6C03wIjARDbS5jzxr96JyntZRt2lokMaDwrhq9dT-P0w-OgFvX5ec8PbzIpdas08"></div>
 </div>
 </div>
 </section>
@@ -793,11 +757,11 @@
 <div class="container">
 <div class="servicios-header-grid">
 <div>
-<div class="section-label" style="text-transform: uppercase;">// NUESTROS SERVICIOS</div>
-<h2 style="font-size: 2.2rem; margin-top: 0.5rem;">Tres núcleos diseñados para <span class="accent">proteger y hacer crecer su empresa.</span></h2>
+<div class="section-label" style="font-size: 2.5rem; text-transform: uppercase; letter-spacing: 0.2em;">// NUESTROS SERVICIOS</div>
+<h2 class="" style="font-size: 2.5rem;">Tres núcleos diseñados para<br><span class="accent">proteger y hacer crecer su empresa.</span></h2>
 </div>
 <div class="servicios-dashboard">
-<img alt="Dashboard PCE" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0i_F5z5oWJWGV2ENliu1K3vp7Qz1ZET2HYardgWVi8lW7XFqWoHHA0kUBb6vDZvtoIcdc_N3J4Uv6HDbfUXXOwaIpGp3yN62ATQluydd3W926u_GaLeAxqXiuQ0efIOSWlwdZa_SNURxJ_fJf_GkRAIB19CVWOHGkCU0iLtDrIutNf2lBpJF9tEJyN7xMBXtpqff8cDMTnN6NBSYCf9DBtKpIaYqOaBFpb8YK25pz6ai136JOun_B0Sx6n7fpAoTYi9o"/>
+<img alt="Dashboard PCE" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0i_F5z5oWJWGV2ENliu1K3vp7Qz1ZET2HYardgWVi8lW7XFqWoHHA0kUBb6vDZvtoIcdc_N3J4Uv6HDbfUXXOwaIpGp3yN62ATQluydd3W926u_GaLeAxqXiuQ0efIOSWlwdZa_SNURxJ_fJf_GkRAIB19CVWOHGkCU0iLtDrIutNf2lBpJF9tEJyN7xMBXtpqff8cDMTnN6NBSYCf9DBtKpIaYqOaBFpb8YK25pz6ai136JOun_B0Sx6n7fpAoTYi9o">
 </div>
 </div>
 <!-- PCE -->
@@ -806,21 +770,23 @@
 <div class="servicio-inner">
 <div class="servicio-left">
 <div class="servicio-code">PCE</div>
-<h3 class="servicio-title">Plan de <span class="accent">Cumplimiento</span> Empresarial</h3>
+<h3 class="servicio-title">Plan de<br><span class="accent">Cumplimiento</span><br>Empresarial</h3>
 <p class="servicio-desc">Su radar permanente de cumplimiento. Monitoreamos mes a mes cada obligación formal de su PYME para que nunca enfrente una multa o cierre inesperado.</p>
 </div>
 <div class="servicio-right">
 <div class="servicio-quote">¿Cuándo fue la última vez que alguien revisó si su empresa está realmente al día con todas sus obligaciones?</div>
 <div class="beneficios-grid">
-<div class="beneficio-card"><div class="beneficio-title">PAZ MENTAL</div><p>Usted se enfoca en su negocio. Nosotros vigilamos que nadie llegue a sorprenderlo.</p></div>
-<div class="beneficio-card"><div class="beneficio-title">PREVENTIVO</div><p>Actuamos antes de que venza el plazo, no después de que llegue la multa.</p></div>
-<div class="beneficio-card"><div class="beneficio-title">INVERSIÓN INTELIGENTE</div><p>Una fracción de lo que cuesta un incumplimiento ante Hacienda o la CCSS.</p></div>
-<div class="beneficio-card"><div class="beneficio-title">VISUAL</div><p>Dashboard semáforo mensual: usted siempre sabe exactamente en qué estado está.</p></div>
+<div class="beneficio-card"><div class="beneficio-title">PAZ MENTAL</div><p class="">Usted se enfoca en su negocio. Nosotros vigilamos que nadie le llegue a sorprenderlo.</p></div>
+<div class="beneficio-card"><div class="beneficio-title">PREVENTIVO</div><p class="">Actuamos antes de que venza el plazo, no después de que llegue la multa.</p></div>
+<div class="beneficio-card"><div class="beneficio-title">INVERSIÓN INTELIGENTE</div><p class="">Una fracción de lo que cuesta un incumplimiento ante Hacienda, la CCSS o el INS.</p></div>
+<div class="beneficio-card"><div class="beneficio-title">VISUAL</div><p class="">Dashboard semáforo mensual: usted siempre sabe exactamente en qué estado está.</p></div>
 </div>
 <div class="servicio-items">
 <div class="item">✓ Monitoreo mensual: Hacienda, CCSS, Registro Nacional, Municipalidad, INS, Salud</div>
 <div class="item">✓ Dashboard semáforo digital entregado cada mes</div>
 <div class="item">✓ Alertas preventivas vía WhatsApp y correo</div>
+<div class="item">✓ Diagnóstico inicial completo</div>
+<div class="item">✓ Coordinación con abogados y contadores</div>
 </div>
 </div>
 </div>
@@ -831,19 +797,23 @@
 <div class="servicio-inner">
 <div class="servicio-left">
 <div class="servicio-code">PFV</div>
-<h3 class="servicio-title">Programa de <span class="accent">Fuerza</span> de Ventas</h3>
-<p class="servicio-desc">Muchas PYMES venden sin estrategia y sin herramientas. El PFV transforma eso con trabajo aplicado a la realidad de su empresa.</p>
+<h3 class="servicio-title">Programa de<br><span class="accent">Fuerza</span><br>de Ventas</h3>
+<p class="servicio-desc">Muchas PYMES venden sin estrategia, sin proceso y sin herramientas. El PFV transforma eso con trabajo aplicado a la realidad de su empresa.</p>
 </div>
 <div class="servicio-right">
 <div class="servicio-quote">Vender es la sangre de cualquier negocio — pero vender con sistema es lo que lo hace crecer de verdad.</div>
 <div class="beneficios-grid">
-<div class="beneficio-card"><div class="beneficio-title">CON SISTEMA</div><p>Dejamos de vender por inercia. Construimos un proceso repetible y escalable.</p></div>
-<div class="beneficio-card"><div class="beneficio-title">EQUIPO CAPACITADO</div><p>Su equipo sale con herramientas reales, no teoría. Aplicables desde el día uno.</p></div>
+<div class="beneficio-card"><div class="beneficio-title">CON SISTEMA</div><p class="">Dejamos de vender por inercia. Construimos un proceso repetible y escalable.</p></div>
+<div class="beneficio-card"><div class="beneficio-title">EQUIPO CAPACITADO</div><p class="">Su equipo sale con herramientas reales, no teoría. Aplicables desde el día uno.</p></div>
+<div class="beneficio-card"><div class="beneficio-title">RETENCIÓN</div><p class="">Mejoramos el seguimiento post-venta para que cada cliente que entra, se quede.</p></div>
+<div class="beneficio-card"><div class="beneficio-title">A SU MEDIDA</div><p class="">Una solución comercial estructurada y a la medida de su empresa.</p></div>
 </div>
 <div class="servicio-items">
 <div class="item">✓ Diagnóstico completo del modelo de ventas actual</div>
 <div class="item">✓ Identificación de debilidades en la experiencia del cliente</div>
 <div class="item">✓ Manual de ventas adaptado a su empresa</div>
+<div class="item">✓ Capacitación práctica del equipo comercial</div>
+<div class="item">✓ Diseño de procesos de seguimiento para conversión y retención</div>
 </div>
 </div>
 </div>
@@ -854,19 +824,23 @@
 <div class="servicio-inner">
 <div class="servicio-left">
 <div class="servicio-code">BPE</div>
-<h3 class="servicio-title">Buenas <span class="accent">Prácticas</span> Empresariales</h3>
-<p class="servicio-desc">Nadie les enseñó a manejar las finanzas de su empresa. El BPE llena ese vacío con orden y herramientas prácticas.</p>
+<h3 class="servicio-title">Buenas<br><span class="accent">Prácticas</span><br>Empresariales</h3>
+<p class="servicio-desc">Nadie les enseñó a manejar las finanzas de su empresa. El BPE llena ese vacío con orden, criterio y herramientas prácticas y accesibles.</p>
 </div>
 <div class="servicio-right">
-<div class="servicio-quote">Meses buenos que no se notan o decisiones sin información — eso termina con el BPE.</div>
+<div class="servicio-quote">Meses buenos que no se notan, aguinaldos que llegan de sorpresa, decisiones sin información — eso termina con el BPE.</div>
 <div class="beneficios-grid">
-<div class="beneficio-card"><div class="beneficio-title">ORDEN</div><p>Separamos lo personal de lo empresarial. Su negocio empieza a tener números reales.</p></div>
-<div class="beneficio-card"><div class="beneficio-title">SIN SORPRESAS</div><p>Planificamos aguinaldo y cargas patronales con tiempo.</p></div>
+<div class="beneficio-card"><div class="beneficio-title">ORDEN</div><p class="">Separamos lo personal de lo empresarial. Su negocio empieza a tener números reales y claros.</p></div>
+<div class="beneficio-card"><div class="beneficio-title">SIN SORPRESAS</div><p class="">Planificamos aguinaldo, salario escolar y cargas — con tiempo, no a último momento.</p></div>
+<div class="beneficio-card"><div class="beneficio-title">CONFIANZA</div><p class="">Entiende su negocio, lo maneja con criterio y toma decisiones basadas en información real.</p></div>
+<div class="beneficio-card"><div class="beneficio-title">SOSTENIBLE</div><p class="">Construimos un fondo de contingencia para que los imprevistos no detengan su operación.</p></div>
 </div>
 <div class="servicio-items">
 <div class="item">✓ Organización financiera básica desde el día uno</div>
+<div class="item">✓ Presupuesto para obligaciones fiscales y gastos operativos</div>
 <div class="item">✓ Planificación de aguinaldo, salario escolar y cargas patronales</div>
 <div class="item">✓ Definición de salario razonable para el dueño</div>
+<div class="item">✓ Creación de cultura de ahorro y fondo de contingencia</div>
 </div>
 </div>
 </div>
@@ -876,27 +850,28 @@
 <!-- CASOS REALES -->
 <section class="casos-section" id="casos">
 <div class="container">
-<div class="section-label" style="color: white;">// LO QUE DICEN NUESTROS CLIENTES</div>
-<h2 style="font-size: 2.2rem; margin-bottom: 2rem;">Resultados reales.<br/><span class="accent">PYMES costarricenses.</span></h2>
-<div class="testimonios-grid">
+<div class="section-label" style="color: white; text-align: left;">// LO QUE DICEN QUIENES HAN CONTRATADO NUESTROS SERVICIOS</div>
+<h2 class="" style="font-size: 3rem; margin-bottom: 2rem; text-align: left;">Resultados reales.<br><span class="accent">PYMES costarricenses.</span></h2>
+<div class="testimonios-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 4rem;">
 <div class="testimonio-card">
 <div class="testimonio-icon">PCE</div>
 <div class="testimonio-titulo">Una multa de ₡900.000 que pude haber evitado</div>
-<blockquote>"Al otro día llegó con dos inspectores de Hacienda. Multa de casi ₡900.000 y me cerraron el negocio. Desde que trabajo con Kenneth sé exactamente qué tengo que tener al día."</blockquote>
-<div class="testimonio-autor">Eduardo — Administrador de Minisúper</div>
+<blockquote class="">"La verdad es que cuando la señora me pidió la factura electrónica, pensé que era un cliente más haciéndose el difícil. Le dije que no tenía. Al otro día llegó con dos inspectores de Hacienda. Multa de casi ₡900.000 y me cerraron el negocio. Fue un golpe durísimo. Desde que trabajo con Kenneth sé exactamente qué tengo que tener al día y cuándo. Ojalá lo hubiera conocido antes."</blockquote>
+<div class="testimonio-autor">Eduardo — Administrador de Minisúper · Santo Domingo de Heredia</div>
 </div>
 <div class="testimonio-card">
 <div class="testimonio-icon">PFV</div>
 <div class="testimonio-titulo">Recuperamos las ventas y la confianza</div>
-<blockquote>"Las ventas empezaron a caer y no sabíamos por dónde empezar. Kenneth nos ayudó a ver cosas que teníamos en frente y no estábamos viendo. El negocio volvió a agarrar ritmo."</blockquote>
-<div class="testimonio-autor">Rafael — Propietario de Depósito</div>
+<blockquote class="">"Cuando papá se retiró, nosotros los hijos asumimos el negocio con toda la buena voluntad del mundo — pero sin tener claro cómo manejarlo. Las ventas empezaron a caer y honestamente no sabíamos por dónde empezar. Kenneth nos ayudó a ver cosas que teníamos en frente y no estábamos viendo. Cambiamos varios procesos, mejoramos la atención y los clientes lo notaron. El negocio volvió a agarrar ritmo."</blockquote>
+<div class="testimonio-autor">Rafael — Propietario de Depósito de Materiales · San Ramón de Alajuela</div>
 </div>
 <div class="testimonio-card">
 <div class="testimonio-icon">PCE</div>
 <div class="testimonio-titulo">Evitamos perder una venta inmobiliaria</div>
-<blockquote>"Casi pierdo una operación por una obligación que ni sabía que existía. Kenneth me ayudó a resolverlo rápido. Duermo tranquila sabiendo que alguien revisa eso."</blockquote>
-<div class="testimonio-autor">Priscilla — Inversionista Inmobiliaria</div>
+<blockquote class="">"Estaba a punto de cerrar una venta importante cuando me salió que la sociedad tenía un problema con una obligación que yo ni sabía que existía. Casi pierdo la operación completa. Kenneth me ayudó a resolverlo rápido y a entender qué había pasado. Desde entonces tengo el PCE activo y duermo más tranquila sabiendo que alguien está revisando eso por mí."</blockquote>
+<div class="testimonio-autor">Priscilla — Inversionista Inmobiliaria · San José</div>
 </div>
+<div class="testimonio-card"><div class="testimonio-icon">PFV</div><div class="testimonio-titulo">Ordenamos el crecimiento de la tienda</div><blockquote class="">"Teníamos muchas ventas pero poco control. Kenneth nos ayudó a implementar un sistema de seguimiento que nos permitió duplicar la capacidad de atención sin contratar más gente."</blockquote><div class="testimonio-autor">Mathew — Dueño de Tienda de Cómputo · Curridabat</div></div>
 </div>
 </div>
 </section>
@@ -905,22 +880,23 @@
 <div class="consultor-container">
 <div class="consultor-photo">
 <div class="photo-frame">
-<img alt="Kenneth Ovares Arias" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAssRtJDqgydMRr_548cZtBqtYBYoTdEQfASIROPxg1tD7f_pq4UsQCQ6FC7cK66aisrd15v2lfoU4XFyw2d1MKEC7G5asJxV2Yc7cQjS4imGn5X_Q7KdaDJvkwqwB0VKwfFpbqMiyte4tC_giYCVtUiKtdk8TMvAkGwhcGI-aGMy94P50grNsRLO-kfaTJ3-NcY73ZfTN9_Hy6Fe1iy5Ok3NjedFjnPEs18A0Zzs6oMkGTNJToM6gCA4pf0bCe-rir7Y0"/>
+<img alt="Kenneth Ovares Arias" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAssRtJDqgydMRr_548cZtBqtYBYoTdEQfASIROPxg1tD7f_pq4UsQCQ6FC7cK66aisrd15v2lfoU4XFyw2d1MKEC7G5asJxV2Yc7cQjS4imGn5X_Q7KdaDJvkwqwB0VKwfFpbqMiyte4tC_giYCVtUiKtdk8TMvAkGwhcGI-aGMy94P50grNsRLO-kfaTJ3-NcY73ZfTN9_Hy6Fe1iy5Ok3NjedFjnPEs18A0Zzs6oMkGTNJToM6gCA4pf0bCe-rir7Y0">
 </div>
 <div class="photo-tag">FUNDADOR · CEO</div>
 </div>
 <div class="consultor-bio">
 <div class="section-label">// SOBRE EL CONSULTOR</div>
-<h2>MSc. Kenneth Ovares Arias</h2>
+<h2 class="bio-nombre">MSc. Kenneth Ovares Arias</h2>
 <div class="bio-role">Consultor Empresarial · Estrategia Comercial y Cumplimiento</div>
 <div class="bio-divider"></div>
-<p>Con más de 17 años de experiencia gerencial, Kenneth ha liderado operaciones y equipos de ventas en retail de alto volumen y consultoría especializada.</p>
-<p>Máster en Comunicación y Mercadeo Corporativo, entiende tanto la lógica de la gran empresa como la realidad cotidiana de quien atiende su negocio solo.</p>
+<p class="">Con más de 17 años de experiencia gerencial en empresas nacionales e internacionales, Kenneth ha liderado operaciones, equipos de ventas y procesos de cumplimiento en entornos tan distintos como el retail de alto volumen y la consultoría especializada.</p>
+<p class="">Máster en Comunicación y Mercadeo Corporativo, entiende tanto la lógica de la gran empresa como la realidad cotidiana de quien atiende su negocio solo. Sabe lo que significa levantarse temprano a abrir un negocio y lidiar con la CCSS.</p>
+<p class=""><strong>Nuestra misión es simple: que nuestra empresa cuide de la suya.</strong></p>
 <div class="bio-tags">
-<span>Estrategia Comercial</span>
-<span>Cumplimiento Empresarial</span>
-<span>PYMES CR</span>
-<span>17+ años</span>
+<span class="">Estrategia Comercial</span>
+<span class="">Cumplimiento Empresarial</span>
+<span class="">PYMES CR</span>
+<span class="">17+ años</span>
 </div>
 </div>
 </div>
@@ -929,62 +905,46 @@
 <section class="contacto-section" id="contacto">
 <div class="container">
 <div class="section-label">// CONTACTO</div>
-<h2 style="font-size: 2.2rem; margin-top: 0.5rem;">¿Listo para proteger su empresa?<br/><span class="accent">Conversemos sin compromiso.</span></h2>
+<h2 class="" style="font-size: 2.5rem;">¿Listo para proteger su empresa?<br><span class="accent">Conversemos sin compromiso.</span></h2>
 <div class="contacto-info">
-<a class="contacto-item" href="https://wa.me/50688599091" target="_blank">
-<div class="contacto-icon">
-<svg fill="currentColor" viewbox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"></path></svg>
-</div>
-<div>
-<div class="contacto-label">WhatsApp</div>
-<div class="contacto-value">8859-9091</div>
-</div>
+<a class="contacto-item" href="https://wa.me/50688599091?text=Hola!%20Deseo%20mayor%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20Consultor%20Kenneth!" target="_blank">
+<div class="contacto-icon"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"></path></svg></div>
+<div><div class="contacto-label">WhatsApp</div><div class="contacto-value">8859-9091</div></div>
 </a>
 <a class="contacto-item" href="mailto:consultorkenneth@gmail.com">
-<div class="contacto-icon">
-<svg fill="currentColor" viewbox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"></path></svg>
-</div>
-<div>
-<div class="contacto-label">Correo</div>
-<div class="contacto-value">consultorkenneth@gmail.com</div>
-</div>
+<div class="contacto-icon"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"></path></svg></div>
+<div><div class="contacto-label">Correo</div><div class="contacto-value">consultorkenneth@gmail.com</div></div>
 </a>
 <a class="contacto-item" href="https://www.instagram.com/consultorkenneth" target="_blank">
-<div class="contacto-icon">
-<svg fill="currentColor" viewbox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg>
-</div>
-<div>
-<div class="contacto-label">Instagram</div>
-<div class="contacto-value">@consultorkenneth</div>
-</div>
+<div class="contacto-icon"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg></div>
+<div><div class="contacto-label">Instagram</div><div class="contacto-value">@consultorkenneth</div></div>
 </a>
 </div>
 </div>
 </section>
 <!-- FOOTER -->
-<footer class="footer">
+<footer class="footer" style="background-color: rgb(0, 0, 0); color: rgb(255, 255, 255);">
 <div class="footer-container">
-<div class="footer-logo">
-<img alt="Consultor Kenneth" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0pFqL-zElAcVg3JAvhjlo1wRMuY2PXxqcKuOD_JAzG_w9Uy3Z7IBG15C-EQdPxVuz8Pv9ztl5F_JEoOOVO2wfvEIX2tPukftHd5qA_ahEituxh7JrkSxvBt1dqTf9oenhb38Kq8Lj1gh_MtBZQm8eIp2xyn1nIAQ7mr4iRN88qbHZ9wX6q1EuvA_UUQaKWlVKF4MElN9hnmqMfkrU4UUC8CgTY7GT53tB3x2WNCW48q_xdpGlzhcFNHclITlUAHHcSHs" style="filter: brightness(0) invert(1);"/>
-<p class="text-white/80 text-sm">Empatía, servicio y profesionalismo.<br/>Nuestra empresa cuida a otras empresas.</p>
-</div>
+<div class="footer-logo" style="background: transparent; padding: 0px; border-width: medium; border-style: none; border-color: currentcolor; border-image: none;"><img alt="Consultor Kenneth" class="h-[40px] w-auto mb-8 block" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0pFqL-zElAcVg3JAvhjlo1wRMuY2PXxqcKuOD_JAzG_w9Uy3Z7IBG15C-EQdPxVuz8Pv9ztl5F_JEoOOVO2wfvEIX2tPukftHd5qA_ahEituxh7JrkSxvBt1dqTf9oenhb38Kq8Lj1gh_MtBZQm8eIp2xyn1nIAQ7mr4iRN88qbHZ9wX6q1EuvA_UUQaKWlVKF4MElN9hnmqMfkrU4UUC8CgTY7GT53tB3x2WNCW48q_xdpGlzhcFNHclITlUAHHcSHs" style="filter: none;"><p class="text-white/80">Empatía, servicio y profesionalismo.<br>Nuestra empresa cuida a otras empresas.</p></div>
 <div class="footer-links">
-<a href="#inicio">Inicio</a>
-<a href="#servicios">Servicios</a>
-<a href="#casos">Casos Reales</a>
-<a href="#consultor">El Consultor</a>
-<a href="#contacto">Contacto</a>
+<a class="" href="#inicio">Inicio</a>
+<a class="" href="#servicios">Servicios</a>
+<a class="" href="#casos">Casos Reales</a>
+<a class="" href="#consultor">El Consultor</a>
+<a class="" href="#contacto">Contacto</a>
 </div>
 <div class="footer-contact">
-<a href="mailto:consultorkenneth@gmail.com">consultorkenneth@gmail.com</a>
-<a href="https://wa.me/50688599091" target="_blank">+506 8859-9091</a>
+<a class="" href="mailto:consultorkenneth@gmail.com">consultorkenneth@gmail.com</a>
+<a class="" href="https://wa.me/50688599091?text=Hola!%20Deseo%20mayor%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20Consultor%20Kenneth!" target="_blank">+506 8859-9091</a>
 </div>
 </div>
 <div class="footer-bottom">
-<p>© 2026 Consultor Kenneth · Costa Rica · Todos los derechos reservados · V1.2</p>
+<p class="">© 2026 Consultor Kenneth · Costa Rica · Todos los derechos reservados · V1.2</p>
 </div>
 </footer>
-<a class="whatsapp-float" href="https://wa.me/50688599091" target="_blank">
-<svg fill="currentColor" viewbox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"></path></svg>
+<a class="whatsapp-float" href="https://wa.me/50688599091?text=Hola!%20Deseo%20mayor%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20Consultor%20Kenneth!" target="_blank">
+<svg fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"></path></svg>
 </a>
-</body></html>
+
+
+<script>const toggle = document.getElementById('mobile-menu-toggle'); const navLinks = document.querySelector('.nav-links'); const links = document.querySelectorAll('.nav-links a'); function toggleMenu() { const isOpen = navLinks.classList.toggle('open'); document.body.classList.toggle('menu-open', isOpen); } if (toggle) { toggle.addEventListener('click', toggleMenu); } links.forEach(link => { link.addEventListener('click', () => { navLinks.classList.remove('open'); document.body.classList.remove('menu-open'); }); });</script></body></html>
